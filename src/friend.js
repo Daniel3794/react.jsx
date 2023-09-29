@@ -29,12 +29,6 @@ function friend() {
 
         <nav className="main-menu">
         <ul>
-            <li>
-              <Link to="/main">
-              <Link to="/main" className="logo link">EDL</Link>
-                
-              </Link>
-            </li>
       
             <li>
               <Link to="/main">

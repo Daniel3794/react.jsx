@@ -11,6 +11,7 @@ import Create from "./create.js";
 import Modal from "./components/Modal.jsx";
 import PostC from "./components/PostC.jsx"
 import Main from "./main.js";
+import ImageUpload from "./ImageUpload.js";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Container maxWidth="lg" sx={{ paddingY: "16px" }}>
       <Router>
         <Routes>
-          <Route path="/" element={<Modal />} />
+          <Route path="/" element={<ImageUpload />} />
           <Route path="signin" element={< Signin/>} />
           <Route path="signup" element={<Signup />} />
           <Route path="post" element={<Post />} />
