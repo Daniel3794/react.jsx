@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(180deg,#1D36BA,#0d1020);
+  background-size: cover;
+  font-family: Montserrat;
+}
+
+
+
+
+.login-block {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.login-block h1 {
+  
+  color: #000;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.login-block h4 {
+  text-align: center;
+}
+
+.login-block input {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Montserrat;
+  padding: 0 20px 0 50px;
+  
+  border-radius: 20px;
+}
+
+.login-block input#username {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+  border: 1px solid #10345c;
+}
+
+.login-block button {
+  width: 100%;
+  height: 40px;
+  background: #65c7ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #0b0808;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+}
+
+.signin{
+  width: 100%;
+  height: 40px;
+  background: #efefef;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #0b0808;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-block button:hover {
+  background: #2b1b87;
+}
