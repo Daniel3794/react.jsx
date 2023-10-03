@@ -1,6 +1,6 @@
 import { Button, Modal, TextField, Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
-import "./PostC.scss"
+
 
 const ModalExample = () => {
   const [files, setFiles] = useState();
@@ -76,7 +76,7 @@ const ModalExample = () => {
           <TextField
             label="Caption"
             multiline
-            rows={4}
+            rows={2}
             fullWidth
             value={caption}
             onChange={handleCaptionChange}
@@ -84,6 +84,7 @@ const ModalExample = () => {
             mb={2}
             
           />
+          
           <div>
             <input
               type="file"

@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container,Box, Card } from "@mui/material";
 import Signin from "./signin.js";
 import Signup from "./signup.js";
-import Post from "./post.js";
+import Post from "./posts.js";
 import Friend from "./friend.js";
 import Chat from "./chat.js";
 import Create from "./create.js";
 import Modal from "./components/Modal.jsx";
 import PostC from "./components/PostC.jsx"
 import Main from "./main.js";
-import ImageUpload from "./ImageUpload.js";
+import PostCard from "./PostCard.js"
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Container maxWidth="lg" sx={{ paddingY: "16px" }}>
       <Router>
         <Routes>
-          <Route path="/" element={<ImageUpload />} />
+          <Route path="/" element={<PostCard />} />
           <Route path="signin" element={< Signin/>} />
           <Route path="signup" element={<Signup />} />
           <Route path="post" element={<Post />} />
