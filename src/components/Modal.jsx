@@ -48,7 +48,7 @@ const ModalExample = () => {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Get Start</Button>
+      <Button variant="outlined" onClick={handleOpen}>Get Start</Button>
       <Modal open={open} onClose={handleClose}>
         <Box sx={style}>
         <div className="modal-content">
