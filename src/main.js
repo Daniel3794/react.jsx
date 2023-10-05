@@ -58,7 +58,6 @@ function main() {
         </a>
       </div>
 
-      {/* <Post /> */}
     </div>
   );
 }
