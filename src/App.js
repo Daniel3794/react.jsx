@@ -13,6 +13,8 @@ import PostC from "./components/PostC.jsx"
 import Main from "./main.js";
 import PostCard from "./PostCard.js"
 import Home from "./Home.js"
+import Tem from "./tem.js"
+
 
 
 
@@ -23,7 +25,7 @@ function App() {
       <Container maxWidth="lg" sx={{ paddingY: "16px" }}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Tem />} />
           <Route path="signin" element={< Signin/>} />
           <Route path="signup" element={<Signup />} />
           <Route path="post" element={<Post />} />

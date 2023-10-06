@@ -4,8 +4,6 @@ import "./main.scss";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { FaUserFriends } from "react-icons/fa";
 import { GoSearch } from "react-icons/go";
-import PostC from "./components/PostC";
-import Post from "./posts.js";
 import PostCard from "./PostCard";
 
 function main() {
