@@ -6,6 +6,8 @@ import { FaUserFriends } from "react-icons/fa";
 import { GoSearch } from "react-icons/go";
 import PostCard from "./PostCard";
 
+
+
 function main() {
   return (
     <div className="body">

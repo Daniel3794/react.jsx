@@ -11,9 +11,10 @@ import Create from "./create.js";
 import Modal from "./components/Modal.jsx";
 import PostC from "./components/PostC.jsx"
 import Main from "./main.js";
-import PostCard from "./PostCard.js"
 import Home from "./Home.js"
-import Tem from "./tem.js"
+import Test from "./PostFeed.js"
+import Log from "./LoginRegisterModal.js"
+import FriendModal from "./FriendModalMain.jsx";
 
 
 
@@ -25,7 +26,7 @@ function App() {
       <Container maxWidth="lg" sx={{ paddingY: "16px" }}>
       <Router>
         <Routes>
-          <Route path="/" element={<Tem />} />
+          <Route path="/" element={<FriendModal />} />
           <Route path="signin" element={< Signin/>} />
           <Route path="signup" element={<Signup />} />
           <Route path="post" element={<Post />} />
