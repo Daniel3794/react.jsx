@@ -22,7 +22,7 @@ body {
 }
 @cof: 1;
 .ui {
-  margin: 64px auto;
+  margin: 72px auto;
   position: absolute;
   left: 0px;
   width: 100%;
@@ -77,7 +77,7 @@ body {
     list-style: none;
     font-size: 13px;
     overflow-y: scroll;
-    height: 91%;
+    height: 90%;
 	
     & img {
       margin: 5px;
